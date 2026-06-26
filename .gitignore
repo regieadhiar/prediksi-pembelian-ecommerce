@@ -37,17 +37,6 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Model files (keep only in models/)
-*.pkl
-*.joblib
-*.h5
-*.pb
-
-# Data (keep only in data/)
-*.csv
-*.xlsx
-*.xls
-
 # OS
 .DS_Store
 Thumbs.db
