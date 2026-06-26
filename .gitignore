@@ -43,3 +43,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+present.md
+README.md
+train_model.py
+eval_model.py
+prediksi_pembelian_ecommerce.py
