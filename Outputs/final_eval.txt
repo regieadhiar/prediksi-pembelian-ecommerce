@@ -1,0 +1,15 @@
+/home/egyadya/Code/prediksi-pembelian-ecommerce/eval_model.py:15: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
+  categorical_features = X.select_dtypes(include=['object', 'bool']).columns.tolist()
+Accuracy: 0.8964
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94      2059
+           1       0.66      0.69      0.68       382
+
+    accuracy                           0.90      2441
+   macro avg       0.80      0.81      0.81      2441
+weighted avg       0.90      0.90      0.90      2441
+
